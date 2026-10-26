@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Brukerstøtte for AFD Drone, AFD IMT, AFD Lager og AFD Søkshund.">
+  <title>Brukerstøtte – AFD-apper</title>
+  <style>
+    :root { color-scheme: light; --ink:#1c2731; --muted:#56616b; --yellow:#ffc600; --line:#e4e8ec; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:#f6f7f8; line-height:1.6; }
+    header { background:#fff; border-bottom:4px solid var(--yellow); }
+    .wrap { max-width:810px; margin:auto; padding:24px; }
+    .brand { display:flex; align-items:center; gap:14px; }
+    .mark { display:inline-flex; width:55px; height:55px; background:var(--yellow); color:#161616; font-size:22px; font-weight:900; align-items:center; justify-content:center; letter-spacing:-2px; border-radius:8px; }
+    .brand-name { font-weight:750; font-size:20px; }
+    .sub { color:var(--muted); font-size:14px; }
+    main { padding-top:37px!important; padding-bottom:45px!important; }
+    h1 { font-size:clamp(28px,4vw,38px); line-height:1.2; margin:0 0 12px; }
+    h2 { font-size:19px; margin:0 0 12px; }
+    p { margin:0 0 16px; }
+    .lead { color:var(--muted); font-size:17px; max-width:65ch; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:13px; padding:25px; margin-top:24px; }
+    ul { margin:0; padding-left:22px; }
+    li { margin:6px 0; }
+    .button { display:inline-block; background:var(--yellow); color:#181818; font-weight:750; text-decoration:none; padding:12px 20px; border-radius:9px; margin-top:4px; }
+    a { color:#145d8d; overflow-wrap:anywhere; }
+    .button:focus-visible, a:focus-visible { outline:3px solid #245f9b; outline-offset:3px; }
+    footer { border-top:1px solid var(--line); background:#fff; color:var(--muted); font-size:14px; }
+    @media (max-width:560px) { .wrap { padding:19px; } .card { padding:20px; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap brand"><div class="mark" aria-label="AFD">AFD</div><div><div class="brand-name">AFD – DECOM</div><div class="sub">Interne applikasjoner</div></div></div></header>
+  <main class="wrap">
+    <h1>Brukerstøtte for AFD-appene</h1>
+    <p class="lead">Her finner du kontaktinformasjon og hjelp til interne applikasjoner som benyttes i DECOMs virksomhet. Appene er beregnet på autoriserte brukere.</p>
+    <section class="card" aria-labelledby="apps">
+      <h2 id="apps">Apper som omfattes</h2>
+      <ul><li><strong>AFD Drone</strong> – planlegging, sjekklister, flygelogg og dokumentasjon av droneoperasjoner.</li><li><strong>AFD IMT</strong> – planlegging, henting og destruksjonsregistrering.</li><li><strong>AFD Lager</strong> – lagerstyring og registrering.</li><li><strong>AFD Søkshund</strong> – registrering av søksoppdrag, trening og rapporter.</li></ul>
+    </section>
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Kontakt brukerstøtte</h2>
+      <p>Ved spørsmål om tilgang, innlogging, tekniske feil eller bruk av appene, ta kontakt via e-post:</p>
+      <p><strong><a href="mailto:herman.bronlund@afgruppen.no">herman.bronlund@afgruppen.no</a></strong></p>
+      <a class="button" href="mailto:herman.bronlund@afgruppen.no?subject=Brukerst%C3%B8tte%20AFD-app">Send e-post til brukerstøtte</a>
+    </section>
+    <section class="card" aria-labelledby="help">
+      <h2 id="help">Ved feil eller problemer</h2>
+      <p>Beskriv hvilken app du bruker, hva som skjedde, og hvilken appversjon du har. Legg gjerne ved et skjermbilde dersom det ikke inneholder sensitive opplysninger. Ikke send passord eller innloggingskoder på e-post.</p>
+      <p>Hvis du mangler tilgang, må brukerkontoen aktiveres av en administrator.</p>
+    </section>
+    <section class="card" aria-labelledby="privacy">
+      <h2 id="privacy">Personvern</h2>
+      <p>Les om behandling av personopplysninger i appene på vår <a href="./">personvernside</a>.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">© 2026 AF Decom AS · Brukerstøtte for interne AFD-applikasjoner</div></footer>
+</body>
+</html>
